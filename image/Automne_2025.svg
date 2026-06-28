@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301 142">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        fill: #fffde6;
+        font-family: AwesomeSerif-SemiBoldRegular, 'Awesome Serif';
+        font-size: 27.39px;
+      }
+
+      .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        fill: #f3180b;
+        stroke-width: 0px;
+      }
+
+      .cls-11 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-10" x="0" y="46.2" width="301" height="49.11" rx="7.25" ry="7.25" transform="translate(-13.76 44.74) rotate(-16.18)"/>
+  <g class="cls-4">
+    <text class="cls-3" transform="translate(66.84 105.91) rotate(-16.18)"><tspan class="cls-1" x="0" y="0">F</tspan><tspan x="11.56" y="0">in </tspan><tspan class="cls-8" x="35.69" y="0">a</tspan><tspan class="cls-6" x="47.25" y="0">u</tspan><tspan class="cls-2" x="60.39" y="0">t</tspan><tspan class="cls-11" x="68.12" y="0">o</tspan><tspan class="cls-5" x="80.55" y="0">m</tspan><tspan class="cls-7" x="101.04" y="0">n</tspan><tspan class="cls-9" x="114.3" y="0">e 2025</tspan></text>
+  </g>
+</svg>

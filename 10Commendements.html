@@ -1,0 +1,128 @@
+<html>
+  <head>
+     <link rel="stylesheet" href="asset/style.css">
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Jul 4, 2026 9:30:00").getTime();
+      
+      var x = setInterval(function() {
+      
+        // Get today's date and time
+        var now = new Date().getTime();
+      
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+      
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+        // Display the result in the element with id="demo"
+        var fdays = days - 6
+        document.getElementById("devoile4").innerHTML = "4- Sera dévoilé dans : " + fdays + "j " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+         var fdays = days - 5
+        document.getElementById("devoile5").innerHTML = "5- Sera dévoilé dans : " + fdays + "j " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+        var fdays = days - 4
+        document.getElementById("devoile6").innerHTML = "6- Sera dévoilé dans : " + fdays + "j " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+        var fdays = days - 3
+        document.getElementById("devoile7").innerHTML = "7- Sera dévoilé dans : " + fdays + "j " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+        var fdays = days - 2
+        document.getElementById("devoile8").innerHTML = "8- Sera dévoilé dans : " + fdays + "j " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+        var fdays = days - 1
+        document.getElementById("devoile9").innerHTML = "9- Sera dévoilé dans : " + fdays + "j " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+        document.getElementById("devoile").innerHTML = "10- Sera dévoilé dans : " + days + "j " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+      
+        // If the count down is finished, write some text
+        if (days <= 6) {
+          document.getElementById("devoile4").innerHTML = "4- Je marcherais point sur les lignes de tuiles des établissements Louis."
+        }
+        if (days <= 5) {
+          document.getElementById("devoile5").innerHTML = "5- Je ne dirai que \"Merci vous aussi\" lorsqu'un employé me diras \"Bon apétit!\""
+        }
+        if (days <= 4) {
+          document.getElementById("devoile6").innerHTML = "6- Je ne m'abstiendrais aucunement de rouler un dé à 30 faces avant de payer"
+        }
+        if (days <= 3) {
+          document.getElementById("devoile7").innerHTML = "7- Je ne garderai point l'argent du Pot-à-pieux lorsque le 29 sera roulé sur le dé à 30 faces"
+        }
+        if (days <= 2) {
+          document.getElementById("devoile8").innerHTML = "8- "
+        }
+        if (days <= 1) {
+          document.getElementById("devoile9").innerHTML = "9- "
+        }
+        if (distance < 0) {
+           clearInterval(x);
+           document.getElementById("devoile").innerHTML = "10- "
+        }
+
+      }, 1000);
+      // Update the count down every 1 second
+      </script>
+  </head>
+  <body>
+     <header>
+       
+        <img class="logo" src="image/logo-louis.svg">
+        <nav>
+            <li><a href="index.html">Accueil</a></li>
+            <li class="active"><a href="10Commendements.html">Les 10 Commandements</a></li>
+            <li><a href="horaire.html">Horaire</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </nav>
+        <middle>
+          <h2 class="gradient-text-center">4 Juillet 2026 9:30AM</h2>
+          <h2 class="gradient-text-center">Départ: Parc Jacques-Cartier</h2>
+        </middle>
+     </header>
+        <section class="content_commandement">
+            <div class="container">
+                <h1 class="gradient-text"><span>Les 10 Commandements</span></h1>
+                <p>
+                    <a class="underline" href="https://fr.wikipedia.org/wiki/Loup_(nom_vernaculaire)">L'humain est un loup pour lui-même.</a> 
+                </p>
+            </div>
+        </section>
+        <hr>
+        <hr class="gradient">
+        <hr>
+        <h2 >"Soyez diligent, du moins, c'est ce que di-les-gens" - Ghandi</h1>
+        <hr>
+        <hr class="gradient">
+        <section class="guides">
+            <ol class="comm-list">
+                <li>1- Je ne nourrirai point les poubelles de l'enfer</li>
+                <li>2- Je ferai un chant grégorien lorsque toutes les panses seront comblées</li>
+                <li>3- Je ne cultiverai point mon Ego, alors je ferai un don de 5$ (prix du billet) dans le Pot-à-pieux
+                  <p>
+                    Envoyez 5$ à plasticpack@hotmail.ca via interac pour réserver votre place!!!
+                  </p>
+                  <p>
+                    Mot de passe: louis
+                  </p>
+                </li>
+                <li id="devoile4"></li>
+                <li id="devoile5"></li>
+                <li id="devoile6"></li>
+                <li id="devoile7"></li>
+                <li id="devoile8"></li>
+                <li id="devoile9"></li>
+                <li id="devoile"></li>
+            </ol>
+        </section>
+  </body>
+        <hr class="gradient">
+        <footer>
+            <p class="copyright">Les pèrelouineurs affamé/es</p>
+        </footer>
+</html>
